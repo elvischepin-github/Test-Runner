@@ -1,0 +1,40 @@
+.title,
+.description-box,
+.editor,
+.btn-box {
+  margin-bottom: 1rem;
+}
+
+.section-box {
+  max-width: calc(500 / 16 * 1rem);
+}
+
+.description-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.description,
+.requirements {
+  text-align: start;
+}
+
+b {
+  font-weight: bold;
+}
+
+.editor {
+  min-width: 100%;
+  height: 25vh;
+
+  padding: 0.5rem;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
